@@ -13,6 +13,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sacramento&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body cz-shortcut-listen="true">
@@ -20,7 +21,7 @@
     <img class="top-cloud" src="./index_files/cloud.png" alt="cloud">
     <div class="title-text">
       <h1>I'm Sathaphon,</h1>
-      <h2>a <span class="pro">pro</span>grammer.</h2>
+      <h2>a <span class="pro">Junior Web</span> Developer</h2>
     </div>
     <img class="bottom-cloud" src="./index_files/cloud.png" alt="cloud">
     <img class="mountain" src="./index_files/mountain.png" alt="mountain-img">
@@ -29,65 +30,95 @@
   <div class="middle-container">
     <div class="profile">
       <img src="./index_files/my-photo.jpg" alt="sathaphon-profile-img">
-      <h2>Hello.</h2>
-      <p class="intro">I am an Android and Web Developer. I'm the founder of www.learndee.com. I ❤️ reading and teaching.</p>
+      <h2>Hello!</h2>
+      <p class="intro">I'm a Junior Web Developer passionate about turning creative visions into seamless digital experiences. Let's explore and build the extraordinary together!</p>
     </div>
     <hr>
+  
     <div class="skills">
       <h2>My Skills</h2>
-      <div class="parent">
-        <div class="typing">
-          <img src="./index_files/cat-typing.gif" alt="typing cat">
+      <div class="skills-container">
+        <!-- Programming Languages -->
+        <div class="skill">
+          <i class="fab fa-python"></i>
+          <p>Python</p>
         </div>
-        <div class="coding">
-          <h3>Design &amp; Development</h3>
-          <p>I started learning to code when I was 26 years old because I wanted to make my own website. Over
-            time,
-            I
-            have gained a wealth of experience designing and developing mobile and web applications.</p>
+        <div class="skill">
+          <i class="fab fa-js-square"></i>
+          <p>JavaScript</p>
         </div>
-        <div class="reading">
-          <img class="reading-img" src="./index_files/reading.jpg" alt="reading-img">
+        <div class="skill">
+          <i class="fas fa-chart-line"></i> <!-- Used for R, as there's no direct R icon -->
+          <p>R</p>
         </div>
-        <div class="reading-challenge">
-          <h3>Best Reading Challenge</h3>
-          <p>But my best skill is actually in reading books. I am the undisputed king of reading challenges.</p>
+        <div class="skill">
+          <i class="fab fa-cuttlefish"></i> <!-- Used 'C' of Cuttlefish for C++ -->
+          <p>C++</p>
         </div>
-
+        <div class="skill">
+          <i class="fas fa-database"></i> <!-- Generic database icon for SQL -->
+          <p>SQL</p>
+        </div>
+        <!-- Web Development -->
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <p>HTML</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <p>CSS</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-react"></i>
+          <p>React</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-node-js"></i>
+          <p>Node.js</p>
+        </div>
+        <div class="skill">
+          <!-- Express.js doesn't have a direct Font Awesome icon, so we use a generic code icon -->
+          <i class="fas fa-code"></i>
+          <p>Express.js</p>
+        </div>
+        <!-- Database Management -->
+        <div class="skill">
+          <!-- MongoDB doesn't have a direct Font Awesome icon, so we use a leaf to represent it -->
+          <i class="fab fa-envira"></i>
+          <p>MongoDB</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-database"></i>
+          <p>SQL Databases</p>
+        </div>
+        <!-- Tools -->
+        <div class="skill">
+          <i class="fab fa-git-alt"></i>
+          <p>Proficient in Git</p>
+        </div>
+        <!-- Soft Skills -->
+        <div class="soft-skill">
+          <p><strong>Soft Skills:</strong> Strong teamwork & communication, effective time management, proactive problem-solving.</p>
+        </div>
       </div>
-
     </div>
+    
     <hr />
+
     <div class="projects">
       <h2>My Projects</h2>
-      <div class="parent">
-        <div class="typing">
-          <img src="./index_files/cat-typing.gif" alt="typing cat">
-        </div>
-        <div class="coding">
-          <h3>Design &amp; Development</h3>
-          <p>I started learning to code when I was 26 years old because I wanted to make my own website. Over
-            time,
-            I
-            have gained a wealth of experience designing and developing mobile and web applications.</p>
-        </div>
-        <div class="reading">
-          <img class="reading-img" src="./index_files/reading.jpg" alt="reading-img">
-        </div>
-        <div class="reading-challenge">
-          <h3>Best Reading Challenge</h3>
-          <p>But my best skill is actually in reading books. I am the undisputed king of reading challenges.</p>
-        </div>
-
+      <div class="project">
+        <a href="https://lunarfit-frontend.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <img src="./index_files/myproject.png" alt="LunarFit App">
+          <h3>LunarFit</h3>
+          <p>LunarFit is a versatile fitness app designed to make your workout journey straightforward and rewarding. It offers smart tracking of your activities, a user-friendly interface tailored for beginners, customizable workout plans, and features ensuring inclusivity for all users. Alongside educational content and a supportive community, LunarFit acts as your all-in-one fitness companion, guiding and motivating you towards your health and wellness goals.</p>
+        </a>
       </div>
-
     </div>
       <hr />
       <div class="contact-me">
         <h2>Get In Touch</h2>
-        <h3>If you love reading and teaching as much as I do.</h3>
-        <p class="contact-message">Love reading and teaching as much as I do? Let's talk about how awesome they are! We can code
-          while we are reading!</p>
+        <p class="contact-message"> If you're seeking a dedicated and innovative Web Developer to bring your projects to life, I'd love to hear from you. I'm always on the lookout for exciting opportunities to apply my skills in web development, design, and problem-solving. Whether it's freelance projects, full-time roles, or collaborative ventures, I'm eager to explore how we can create outstanding digital experiences together. Reach out to discuss how we can work together to achieve your goals.</p>
         <a class="btn" href="mailto:sathaphon.wutthipanyasakul@gmail.com">CONTACT ME</a>
       </div>
     
@@ -96,10 +127,9 @@
     <a class="footer-link" href="https://www.linkedin.com/in/sathaphon-wutthipanyasakul/">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/ksathaphon_w">Twitter</a>
     <a class="footer-link" href="https://github.com/wutthipanyasakul">Github</a>
-    <a class="footer-link" href="https://www.google.com/">Website</a>
-    <a class="cv-button" href="./path_to_your_cv.pdf" download>Download My CV</a>
+    <a class="cv-button" href="https://docs.google.com/document/d/1RjN4WZ5ZFJ-HpYUqXCvo6tiR94g0TqPiUema0UBcjpI/edit" target="_blank" rel="noopener noreferrer">View My CV</a>
 
-    <p class="copyright">© Sathaphon Wutthipanyasakul @ learndee.com</p>
+    <p class="copyright">© Sathaphon Wutthipanyasakul</p>
   </div>
 
 

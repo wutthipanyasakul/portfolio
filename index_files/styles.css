@@ -58,11 +58,6 @@ a:hover {
   margin: 100px 0;
 }
 
-.bottom-container {
-  background-color: #66bfbf;
-  padding: 50px 0 20px;
-}
-
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
@@ -139,19 +134,6 @@ a:hover {
   text-decoration: none;
 }
 
-.cv-button {
-  background-color: #ff5722; /* Example color */
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.cv-button:hover {
-  background-color: #e64a19; /* Darker shade for hover effect */
-}
 .parent {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
@@ -162,3 +144,121 @@ a:hover {
   row-gap: 2rem;
 }
 
+
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+  text-align: center; /* Ensures the links are centered */
+}
+
+.footer-link {
+  color: #eaf6f6; /* Lighter shade for better contrast */
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+  transition: color 0.3s, text-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.footer-link:hover {
+  color: #ffffff; /* Brighter shade on hover for emphasis */
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5); /* Enhanced shadow for hover effect */
+}
+
+/* Ensure the show  CV button is consistent with the theme and stands out */
+.cv-button {
+  background-color: #ff5722; /* Keep the original vibrant color for attention */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth background and scale transition */
+}
+
+.cv-button:hover {
+  background-color: #e64a19; /* Darker shade for hover effect */
+  transform: scale(1.05); /* Slight increase in size for emphasis */
+}
+
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px; /* Adjust based on your layout */
+  margin: auto;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 120px; 
+}
+
+.skill i {
+  font-size: 40px; /* Icon size */
+  margin-bottom: 10px;
+  color: #11999e; 
+}
+
+.skill p {
+  margin: 0;
+  font-size: 1rem; 
+  color: #40514e; 
+}
+
+.soft-skill {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.soft-skill p {
+  margin: auto;
+  max-width: 600px; 
+  line-height: 1.6;
+}
+
+/* Additional styling for the skills header */
+.skills h2 {
+  color: #66bfbf;
+  margin-bottom: 20px; 
+}
+
+.projects {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.project {
+  display: inline-block;
+  margin: 20px;
+  width: 300px; /* Adjust based on your layout and image size */
+  border: 1px solid #ddd; /* Light border for definition */
+  border-radius: 8px; /* Rounded corners for aesthetics */
+  overflow: hidden; /* Ensures the content fits within the borders */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.project img {
+  width: 100%; /* Ensures image covers the width */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes bottom space under the image */
+}
+
+.project h3 {
+  color: #333; /* Dark text for readability */
+}
+
+.project p {
+  padding: 0 15px 20px; /* Padding for text inside the project box */
+}
+
+.project:hover {
+  transform: translateY(-5px); /* Lifts the project box slightly on hover */
+}
